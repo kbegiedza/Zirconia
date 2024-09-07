@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B9651D94-3906-4294-9B18-3DD37FE19B0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zirconia.Core", "src\Zirconia.Core\Zirconia.Core.csproj", "{FD876B66-80E9-48CB-8E84-92ED20D9AEBF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{35BE6C41-AA1D-4F5E-B7B1-9E1EA6329806}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zirconia.Core.Tests", "tests\Zirconia.Core.Tests\Zirconia.Core.Tests.csproj", "{D717DC06-51B1-43C6-9567-8A7F4A311891}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD876B66-80E9-48CB-8E84-92ED20D9AEBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD876B66-80E9-48CB-8E84-92ED20D9AEBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD876B66-80E9-48CB-8E84-92ED20D9AEBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD876B66-80E9-48CB-8E84-92ED20D9AEBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D717DC06-51B1-43C6-9567-8A7F4A311891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D717DC06-51B1-43C6-9567-8A7F4A311891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D717DC06-51B1-43C6-9567-8A7F4A311891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D717DC06-51B1-43C6-9567-8A7F4A311891}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FD876B66-80E9-48CB-8E84-92ED20D9AEBF} = {B9651D94-3906-4294-9B18-3DD37FE19B0F}
+		{D717DC06-51B1-43C6-9567-8A7F4A311891} = {35BE6C41-AA1D-4F5E-B7B1-9E1EA6329806}
+	EndGlobalSection
+EndGlobal
